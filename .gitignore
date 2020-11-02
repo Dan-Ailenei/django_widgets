@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+
+# test artefacts
+.coverage
+.coverage.*
+coverage.xml
+.mypy_cache
+.cache
+test-results/
+.pytest_cache
+.home
+
+# editors
+*.sw*
+.idea
+*.sublime-*
+
+# osx
+.DS_Store
+
+# logs
+*.log

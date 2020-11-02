@@ -1,0 +1,14 @@
+
+{% if user.is_authenticated %}
+    <div>{{ user.username }}</div>
+
+    
+    <a href="{% url 'django_widgets_auth:logout'%}">Logout</a>
+
+
+{% else %}
+
+    
+    <a href="{% url 'django_widgets_auth:login'%}">Login</a>
+
+{% endif %}

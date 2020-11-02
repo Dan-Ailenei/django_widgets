@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -rf django_widgets_auth/migrations
+rm -rf dj_widgets/migrations
+rm db.sqlite3
+./manage.py makemigrations dj_widgets django_widgets_auth
+./manage.py migrate
